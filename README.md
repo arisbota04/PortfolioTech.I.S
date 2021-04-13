@@ -9,10 +9,10 @@ This portfolio is a small project using Html, css and bootstrap, I will be using
 * HTML
 * CSS
 
-# Installation
+## Installation
 
 No need to install any software, just open up index.html
 
-# How to use ?
+## How to use ?
 
 Use this template to build your portfolio
