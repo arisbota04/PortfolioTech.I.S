@@ -1,143 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <link rel="icon"  type="image/png" href="img/techis-logo.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <link rel="icon" type="image/png" href="img/techis-logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
-        <div class="container">
-          <a href="#" class="navbar-brand title-icon">
-            <span class="font-primary">P</span>ortfolio
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="nav sm mb-2">
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
-                </li>
-              </ul>
-             
+      <div class="container">
+        <a href="#" class="navbar-brand title-icon">
+          <span class="font-primary">P</span>ortfolio
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="nav sm mb-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="about">
+      <h2><span class="font-primary">A</span>bout</h2>
+      <img src="img/sample-photo.png" alt="" />
+      <div class="name">Aris Bota</div>
+      <div class="vocation">Web Application Developer</div>
+      <div class="skills">
+        HTML/ CSS/ JAVASCRIPT/ React.js/ Redux/ Python/ Django/ Express.js/ AWS/
+        Docker
+      </div>
+      <p>
+        A creative, engaging, full stack developer with a passion for front-end
+        development and UI Design. Specializes in customer satisfaction through
+        teamwork and maintains a commitment to exceed expectations. Actively
+        pursuing opportunities to provide programming skills, leadership
+        ability, and enthusiasm to a fast-paced environment as a full stack
+        developer, I am a hard worker and always ready to learn.
+      </p>
+      <div class="email">aris@techis.io</div>
+      <div class="icons">
+        <a href="https://github.com/arisbota04"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/aristotebmbedi/"
+          ><i class="bi bi-linkedin ms-3"></i
+        ></a>
+      </div>
+    </div>
+
+    <div id="project">
+      <h2><span class="font-primary">P</span>roject</h2>
+
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <video class="project-video" autoplay muted controls>
+              <source src="videos/synamatic video.mp4" type="video/mp4" />
+            </video>
           </div>
-        </div>
-      </nav>
-      
-      <div id="about">
-        <h2>
-            <span class="font-primary">A</span>bout
-        </h2>
-        <img src="img/sample-photo.png" alt="">
-        <div class="name">Aris Bota</div>
-        <div class="vocation">Web Application Developer</div>
-        <div class="skills">
-            HTML/ CSS/ JAVASCRIPT/ React.js/
-            Redux/ Python/ Django/
-            Express.js/ AWS/ Docker
-        </div>
-        <p>
-            A creative, engaging, full stack developer with a passion for front-end development and UI Design. 
-            Specializes in customer satisfaction through teamwork and maintains a commitment to exceed expectations. Actively pursuing opportunities to provide programming skills, leadership ability, and enthusiasm to a fast-paced environment as a full stack developer, I am a hard worker and always ready to learn.
-        </p>
-        <div class="email">aris@techis.io</div>
-        <div class="icons">
-            <a href="https://github.com/arisbota04"><i class="bi bi-github"></i></a>
-            <a href="https://www.linkedin.com/in/aristotebmbedi/"><i class="bi bi-linkedin ms-3"></i></a>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">SYNAMANTIC</h5>
+              <p class="card-text">
+                <strong>Project Decricption: </strong>This is a Netflix-inspired
+                project where you can see ratings for newly released and
+                upcoming movies, with links included to check out the trailers
+                to the movies you're interested in. In this project you will
+                find a categories directory, search functionality, and the
+                ability to save your favorites as well as movies you have yet to
+                see.<br /><br />
+
+                <strong>Skills Used: </strong>This project is built using
+                React-Redux and Django API.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  <br />
+                </small>
+              </p>
+              <a
+                href="https://symantic-frontend.herokuapp.com/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Website Link</a
+              >
+              <a
+                href="https://github.com/Synamatic7/symantic"
+                target="_blank"
+                class="btn btn-secondary"
+                >Github Link</a
+              >
+            </div>
+          </div>
         </div>
       </div>
 
-      <div id="project">
-          <h2><span class="font-primary">P</span>roject</h2>
-
-          <div class="card mb-3">
-            <div class="row">
-              <div class="col-md-4">
-               <video  width="320px" height="240px" controls >
-                 <source src="videos/Record_2021-12-07-01-39-07.mp4" type="video/mp4">
-               </video>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Twitter Clone</h5>
-                  <p class="card-text">This is a twitter based project.</p>
-                  <p class="card-text">
-                      <small class="text-muted">
-                        Test Login Account <br>
-                        Email : test@gmail.com
-                        Password : 1234
-                      </small>
-                  </p>
-                  <a href="https://twitter-clone-a.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
-                  <a href="https://github.com/arisbota04/twitter-clone" target="_blank" class="btn btn-secondary">Github Link</a>
-                </div>
-              </div>
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <video class="project-video" autoplay muted controls>
+              <source
+                src="videos/Record_2021-12-07-01-11-34.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Food Valley</h5>
+              <p class="card-text">
+                <strong>Project Description: </strong> is an online food menu
+                service for Sauce and Spice. When you visit the restaurant, you
+                often use the QR code to load the PDF of the menu. It has no
+                image and is not easy to select. So we created the menu app
+                where you can see food images with the needed information and
+                select your items easily. During such unprecedented time and
+                social distancing, online menu card technology is a boon!
+                <br /><br />
+                <strong>Skills Used: </strong> Front-end: React-Redux &
+                Back-end: Django
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Test Login Account <br />
+                  Email : test@gmail.com Password : 1234
+                </small>
+              </p>
+              <a
+                href="https://foodvalley-frontend.herokuapp.com/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Website Link</a
+              >
+              <a
+                href="https://github.com/arisbota04/FoodValley"
+                target="_blank"
+                class="btn btn-secondary"
+                >Github Link</a
+              >
             </div>
           </div>
-
-          <div class="card mb-3">
-            <div class="row">
-              <div class="col-md-4">
-                <video width="320px" height="240px" controls>
-                  <source src="videos/Record_2021-12-07-01-11-34.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Food Valley</h5>
-                  <p class="card-text">This is a web development based project made using Django and React</p>
-                  <p class="card-text">
-                      <small class="text-muted">
-                        Test Login Account <br>
-                        Email : test@gmail.com
-                        Password : 1234
-                      </small>
-                  </p>
-                  <a href="https://foodvalley-frontend.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
-                  <a href="https://github.com/arisbota04/FoodValley" target="_blank" class="btn btn-secondary">Github Link</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card mb-3">
-            <div class="row">
-              <div class="col-md-4">
-                <video width="320px" height="240px" controls>
-                  <source src="videos/synamatic video.mp4" type="video/mp4">
-                </video>
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">SYNAMANTIC</h5>
-                  <p class="card-text">This is a movie theater web app.
-                    This is a web development based project made using Django and React
-                  </p>
-                  <p class="card-text">
-                    <small class="text-muted">
-                      Test Login Account <br>
-                      Email : test@gmail.com
-                      Password : 1234
-                    </small>
-                  </p>
-                  <a href="https://symantic-frontend.herokuapp.com/" target="_blank" class="btn btn-secondary">Website Link</a>
-                  <a href="https://github.com/Synamatic7/symantic" target="_blank" class="btn btn-secondary">Github Link</a>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
       </div>
 
+      <div class="card mb-3">
+        <div class="row">
+          <div class="col-md-4">
+            <video class="project-video" autoplay muted controls>
+              <source
+                src="videos/Record_2021-12-07-01-39-07.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Twitter Clone</h5>
+              <p class="card-text">
+                <strong>Project Decricption: </strong> This is a Twitter-based
+                project which mimics the basic design and functionality of the
+                official Twitter application. <br /><br />
+                <strong>Skills Used: </strong> Django/ HTML/ CSS/ Cloudinary
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  <br />
+                </small>
+              </p>
+              <a
+                href="https://twitter-clone-a.herokuapp.com/"
+                target="_blank"
+                class="btn btn-secondary"
+                >Website Link</a
+              >
+              <a
+                href="https://github.com/arisbota04/twitter-clone"
+                target="_blank"
+                class="btn btn-secondary"
+                >Github Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
